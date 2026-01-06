@@ -1,0 +1,10 @@
+info:
+  game-started: "<green>你将竞速前往 <gold>(%d, %d)</gold>。有效半径：<yellow>%.2f米</yellow>。</green>"
+  game-stopped: "<green>游戏已停止。</green>"
+  game-query: "<green>已有 <yellow>%d</yellow> 名玩家抵达：<players></green>"
+  game-query-no-player: "<green>暂无玩家抵达。</green>"
+  player-arrived: "<green><gold>第%d名</gold> <aqua><player></aqua> 已抵达！</green>"
+
+error:
+  game-already-started: "<red>游戏已在进行中。</red>"
+  game-not-started: "<red>游戏尚未开始。</red>"

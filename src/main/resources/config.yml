@@ -1,0 +1,17 @@
+# Accepted maximum Chebyshev distance to the center
+default-offset-radius: 8.0
+
+particles:
+  enabled: false
+  # Namespaced key
+  type: minecraft:end_rod
+  # Per block
+  count: 3
+  # Possible options: `edge`, `all`
+  position: edge
+  # Force display on clients
+  force: true
+  interval: 60  # ticks
+  height: 10  # blocks
+
+lang: en

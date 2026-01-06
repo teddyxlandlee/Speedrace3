@@ -1,0 +1,11 @@
+info:
+  game-started: "<green>You'll race toward <gold>(%d, %d)</gold>. Accepted radius: <yellow>%.2fm</yellow>.</green>"
+  game-stopped: "<green>Game stopped.</green>"
+  game-query: "<green><yellow>%d</yellow> players have arrived: <players></green>"
+  game-query-no-player: "<green>No player has arrived yet.</green>"
+  player-arrived: "<green><gold>[%d]</gold> <aqua><player></aqua> has arrived!</green>"
+
+
+error:
+  game-already-started: "<red>Game already started.</red>"
+  game-not-started: "<red>Game not started.</red>"

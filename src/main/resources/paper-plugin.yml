@@ -1,0 +1,14 @@
+name: Speedrace3
+version: '${version}'
+main: xland.mcplugin.games25.speedrace3.Speedrace3
+api-version: '1.21.4'
+authors: [ teddyxlandlee ]
+
+permissions:
+  speedrace3.admin:
+    description: Allows access to all Speedrace3 commands
+    default: op
+  speedrace3.query:
+    description: Allows querying the current state of the race
+    default: true
+
