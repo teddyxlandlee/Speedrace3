@@ -38,7 +38,7 @@ final class TheCommands implements LifecycleEventHandler<ReloadableRegistrarEven
                                 .then(Commands.argument("x", IntegerArgumentType.integer())
                                         .then(Commands.argument("z", IntegerArgumentType.integer())
                                                 .executes(ctx -> start(ctx, false))
-                                                .then(Commands.argument("radius", DoubleArgumentType.doubleArg(0))
+                                                .then(Commands.argument("radius", DoubleArgumentType.doubleArg(1.0))
                                                         .executes(ctx -> start(ctx, true))
                                                 )
                                         )
